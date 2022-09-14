@@ -1,0 +1,66 @@
+.main_cover {
+  background: #305926;
+
+  width: 100%;
+  &--imageBg {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: url(../../assets/bg_image--cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  }
+  &--container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    padding: 16px 0;
+  }
+  &--title {
+    color: #fff;
+    text-align: center;
+    width: 90%;
+  }
+  &--continueButton {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    margin-top: 32px;
+
+    height: 75px;
+    width: 50px;
+
+    svg {
+      color: #fff;
+
+      animation: 3s ease-in-out infinite goAhead;
+
+      @keyframes goAhead {
+        33% {
+          margin-bottom: 0px;
+        }
+
+        33% {
+          margin-bottom: 30px;
+        }
+
+        66% {
+          margin-bottom: -25px;
+        }
+
+        100% {
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+}

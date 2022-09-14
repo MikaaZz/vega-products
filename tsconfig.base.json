@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@vega-products/styles": ["libs/styles/src/index.ts"],
       "@vega-products/ui": ["libs/ui/src/index.ts"]
     }
   },

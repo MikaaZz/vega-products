@@ -1,0 +1,46 @@
+.how-ami {
+  background-color: #305926;
+  box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.25);
+  position: relative;
+  width: 100%;
+  z-index: 4;
+
+  &__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+
+    gap: 16px;
+    margin: 0 auto;
+    padding: 16px 0;
+
+    max-width: 1440px;
+    width: 90%;
+  }
+
+  &__image {
+    width: 250px;
+  }
+
+  &__content {
+    color: #f6f6f6;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .how-ami {
+    padding: 64px 0;
+    &__container {
+      flex-direction: row;
+      gap: 64px;
+    }
+    &__image {
+      width: 300px;
+    }
+    &__content {
+      text-align: left;
+    }
+  }
+}

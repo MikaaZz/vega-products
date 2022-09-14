@@ -4,6 +4,7 @@
   "projects": {
     "portfolio-web-page": "apps/portfolio-web-page",
     "portfolio-web-page-e2e": "apps/portfolio-web-page-e2e",
+    
     "ui": "libs/ui"
   }
 }
