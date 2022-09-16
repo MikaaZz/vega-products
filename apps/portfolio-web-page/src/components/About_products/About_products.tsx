@@ -11,11 +11,11 @@ const About_products = () => {
             os serviços oferecidos pela Veja Produtos e Serviços.
           </p>
           <p className="about_products--text">
-            A Vega Produtos e Serviços é uma empresa brasileira especializada em
-            produção de mapas para diferentes áreas do conhecimento, desde os
-            mapas mais usuais, como os mapas de localização, como os mais
-            avançados, que permitem identificar padrões dos fenômenos
-            representados.
+            A Vega Produtos e Serviços elabora mapas para trabalhos acadêmicos
+            como monografias, TCCs, dissertações, teses e artigos, processo
+            importante em muitas áreas do conhecimento. Confeccionamos mapas de
+            localização, mapas temáticos e mapas voltados para a análise
+            espacial.
           </p>
         </div>
       </div>

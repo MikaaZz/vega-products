@@ -1,6 +1,30 @@
-.swiperSlides--container {
+.swiperSlides {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 16px;
+
   background-color: #d8a8a6;
   padding: 32px 0;
+}
+
+.swiper {
+  width: 300px;
+}
+
+.swiperSlides--title {
+  color: #305926;
+  text-align: center;
+}
+
+.swiperSlides--container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
 }
 
 .swiperSlide {
@@ -12,18 +36,23 @@
   background-color: #fff;
   border-radius: 16px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 8px;
   width: 90%;
 
   &--image {
-    background-color: #305926;
-    border-radius: 16px 16px 0 0;
+    border-radius: 16px;
     position: relative;
-    height: 250px;
+
     width: 100%;
   }
-  &__text__container {
-    color: #305926;
+}
+
+.swiperSlide__text__container {
+  max-width: 1440px;
+  &--text {
+    margin: 0 auto;
+    text-align: center;
+    width: 95%;
   }
 }
 
