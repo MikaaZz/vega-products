@@ -21,6 +21,7 @@ const Maps_localizacao = function (props: sliderInfos) {
   return (
     <>
       <h2 className="swiperSlides--title">{props.mapTitle}</h2>
+      <p style={{ fontSize: '16px' }}>Arraste para o lado para ver mais!</p>
       <div className="swiperSlides--container">
         <Swiper
           modules={[Navigation, Pagination, A11y]}

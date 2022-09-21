@@ -9,10 +9,10 @@ export function Footer() {
     <footer id="contact" className="main-footer">
       <div className="main-footer__content">
         <div className="main-footer__contact">
-          <h3>Para solicitar seu o orçamento:</h3>
-          <p>Entre em contato conosco:</p>
-          <a href="mailto:vegaprodutos@gmail.com" target="_blank">
-            <EmailIcon /> E-mail : vegaprodutos@gmail.com
+          <h3>Para solicitar sua proposta entre em contato conosco:</h3>
+
+          <a href="mailto:contato@vegaprodutos.com.br" target="_blank">
+            <EmailIcon /> E-mail : contato@vegaprodutos.com.br
           </a>
           <a
             href="https://web.whatsapp.com/send?phone=5547984772255"

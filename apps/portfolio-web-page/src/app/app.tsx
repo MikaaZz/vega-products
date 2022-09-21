@@ -10,6 +10,7 @@ import Main_cover from '../components/Main_cover/Main_cover';
 // Avançados
 import mapa_kernel from '../assets/Mapa_kernel_blumenau.jpg';
 import mapa_ndvi from '../assets/Mapa_ndvi.jpg';
+import mapa_hipsometrico from '../assets/Mapa_hipsometrico.jpg';
 
 // Tematicos
 import mapa_indigena from '../assets/Mapa_distribuicao_indigena.jpg';
@@ -69,6 +70,7 @@ export function App() {
           mapTitle="Mapas avançados: "
           imageSrcOne={mapa_kernel}
           imageSrcTwo={mapa_ndvi}
+          imageSrcThree={mapa_hipsometrico}
           mapDescription="São mapas que permitem a visualização da distribuição de um fenômeno, a identificação e a interpretação de padrões do fenômeno representado."
         />
         <Maps_vintage

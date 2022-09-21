@@ -1,6 +1,6 @@
 import './How_ami.scss';
 
-import Image_vega from '../../assets/Image_vega.png';
+import Image_vega from '../../assets/Image_vega.jpg';
 
 export function How_ami() {
   return (
