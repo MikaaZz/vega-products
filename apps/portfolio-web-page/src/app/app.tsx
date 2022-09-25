@@ -19,6 +19,7 @@ import mapa_calor from '../assets/Mapa_foco_calor.jpg';
 
 // Vintage
 import mapa_vintage from '../assets/Mapa_vintage.png';
+import mapa_vintage_dois from '../assets/ilha_governador.png';
 
 // Localização
 import mapa_balneario from '../assets/Mapa_balneario.jpg';
@@ -76,6 +77,7 @@ export function App() {
         <Maps_vintage
           mapTitle="Mapas Estilo Vintage: "
           imageSrcOne={mapa_vintage}
+          imageSrcTwo={mapa_vintage_dois}
           mapDescription="São mapas cuja aparência lembra os mapas mais antigos. Passam a ideia de desenhos em papiro, planta de grande importância para os egípcios, que serviu de suporte para a escrita."
         />
       </div>

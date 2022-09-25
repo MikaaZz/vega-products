@@ -8,7 +8,7 @@ const About_products = () => {
           <p className="about_products--text">
             Se você precisa representar sua área de estudo, espacializar dados
             de pesquisa, ou de mapas relacionados a temas específicos, conheça
-            os serviços oferecidos pela Veja Produtos e Serviços.
+            os serviços oferecidos pela Vega Produtos e Serviços.
           </p>
           <p className="about_products--text">
             A Vega Produtos e Serviços elabora mapas para trabalhos acadêmicos

@@ -13,6 +13,7 @@ interface sliderInfos {
   mapDescription: string;
   mapTitle: string;
   imageSrcOne: string;
+  imageSrcTwo: string;
 }
 
 const Maps_vintage = function (props: sliderInfos) {
@@ -31,6 +32,11 @@ const Maps_vintage = function (props: sliderInfos) {
           <SwiperSlide>
             <div className="swiperSlide">
               <img src={props.imageSrcOne} className="swiperSlide--image" />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="swiperSlide">
+              <img src={props.imageSrcTwo} className="swiperSlide--image" />
             </div>
           </SwiperSlide>
         </Swiper>
